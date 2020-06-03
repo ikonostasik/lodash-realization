@@ -1,7 +1,7 @@
 /**
  * Creates a new array concatenating array with any additional arrays and/or values.
  * @param {...*} [array] Arguments of any types for concat
- * @return {Array}                  A concat array
+ * @return {Array}       A concat array
  */
 
 function concat(value) {

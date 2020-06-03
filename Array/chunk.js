@@ -6,10 +6,7 @@
  */
 
 function chunk(array, size = 1) {
-  if (!array.length || typeof size !== 'number') {
-    throw 'Wrong arguments provided';
-  }
-
+  if(size <= 0 || !array) return [];
   if (size >= array.length) {
     return [array];
   }
@@ -25,3 +22,5 @@ function chunk(array, size = 1) {
 
   return result;
 }
+
+console.log(chunk([1,3],5))
