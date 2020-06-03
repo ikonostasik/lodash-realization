@@ -5,11 +5,7 @@
  */
 
 function concat(value) {
-  if (!arguments.length) {
-    throw 'Wrong arguments provided'
-  }
-
-  let result = [];
+  const result = [];
   Object.values(arguments).forEach(argument => {
     if(argument.length){
       result.push(...argument)
