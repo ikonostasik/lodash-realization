@@ -3,7 +3,7 @@
  * The order and references of result values are determined by the first array.
  * @param {Array} [array]  Base array
  * @param {Array} [values] Array of values to be removed from base array
- * @return {Array}         Filtered array
+ * @return {Array}         Returns the new array of filtered values.
  */
 
 function difference(array,values) {
