@@ -5,10 +5,6 @@
  */
 
 function compact(array) {
-  if(!array.length) {
-    throw 'Wrong arguments provided'
-  }
-
-  return array.filter((el) => !!el)
+  return array ? array.filter((el) => !!el) : [];
 }
 
