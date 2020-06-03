@@ -22,5 +22,3 @@ function chunk(array, size = 1) {
 
   return result;
 }
-
-console.log(chunk([1,3],5))
