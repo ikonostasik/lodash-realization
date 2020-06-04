@@ -5,6 +5,6 @@
  */
 
 function compact(array) {
-  return array ? array.filter((el) => !!el) : [];
+  return Array.isArray(array) ? array.filter((el) => !!el) : [];
 }
 
